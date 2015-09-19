@@ -37,7 +37,7 @@ public class Sjl {
 		try {
 			img = ImageIO.read(new File(file)); // Read the file to the BufferedImage
 			JFrame frame = new JFrame("file"); // Create a new window
-			frame.setSize(img.getHeight(), img.getWidth()); // Set window to width/height of image
+			frame.setSize(img.getWidth(), img.getHeight()); // Set window to width/height of image
 			JLabel lblimage = new JLabel(new ImageIcon(img)); // Set which image to display
 			frame.getContentPane().add(lblimage, BorderLayout.CENTER); // Put the image in the middle of the JFrame
 			frame.setVisible(true); // Create window

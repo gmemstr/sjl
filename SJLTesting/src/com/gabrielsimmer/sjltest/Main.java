@@ -15,8 +15,8 @@ public class Main {
 		Sjl.playSound("http://www-mmsp.ece.mcgill.ca/Documents/AudioFormats/WAVE/Samples/AFsp/M1F1-Alaw-AFsp.wav");
         // Play the sound from the URL. Also works with local files somehow.
 		
-		Sjl.displayImg("res/diamond.jpg"); // Display an image in a JFrame.
-										   // Find image in res/ folder.
+		Sjl.displayImg("res/Beaker.gif"); // Display an image in a JFrame.
+										   // Find image in res/ folder.	
 		
 	}
 
