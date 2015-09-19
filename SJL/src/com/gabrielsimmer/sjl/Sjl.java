@@ -5,13 +5,13 @@ import javax.swing.JFrame;
 public class Sjl {
 
 	public void print(String string){
-		System.out.println(string);
+		System.out.println(string); //Print out whatever is passed to sjl.print();
 	}
 
 	public void window(int width, int height, String name){
 		JFrame frame = new JFrame(name);
 		frame.setSize(width, height);
-		frame.setVisible(true);
+		frame.setVisible(true); // Create window
 	}
 
 	public void playSound(String file){
@@ -20,7 +20,7 @@ public class Sjl {
 					new java.net.URL(file));
 			clip.play();
 		} catch (java.net.MalformedURLException murle) {
-			System.out.println(murle);
+			System.out.println(murle); // Play sound
 		}
 	}
 
