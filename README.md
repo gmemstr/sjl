@@ -38,3 +38,4 @@ public class Main {
 |print(String)|Print a string|
 |window(int, int, String)|Create a blank window with desired size and title|
 |playSound(String)|Play .wav file from URL|
+|displayImg(String)|Display the image|
