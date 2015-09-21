@@ -17,6 +17,8 @@ public class Main {
 		
 		Sjl.displayImg("res/Beaker.gif"); // Display an image in a JFrame.
 										   // Find image in res/ folder.	
+		Sjl.displayImg("res/diamond.jpg", 800, 600); // Display an image in a JFrame.
+		   // Find image in res/ folder.	
 		
 	}
 
