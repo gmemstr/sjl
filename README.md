@@ -22,7 +22,11 @@ public class Main {
 
 		Sjl.playSound("http://www-mmsp.ece.mcgill.ca/Documents/AudioFormats/WAVE/Samples/AFsp/M1F1-Alaw-AFsp.wav");
         // Play the sound from the URL. Also works with local files somehow.
-		
+	
+		Sjl.displayImg("res/Beaker.gif"); // Display an image in a JFrame.
+										   // Find image in res/ folder.	
+		Sjl.displayImg("res/diamond.jpg", 800, 600); // Display an image in a JFrame.
+		   // Find image in res/ folder.		
 	}
 
 }
@@ -39,3 +43,4 @@ public class Main {
 |window(int, int, String)|Create a blank window with desired size and title|
 |playSound(String)|Play .wav file from URL|
 |displayImg(String)|Display the image|
+|displayImg(String, int, int)|Display image in window with specified width/height|
